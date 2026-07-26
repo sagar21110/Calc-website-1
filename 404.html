@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CalcHub</title>
+    <script>
+      // GitHub Pages SPA fallback: redirect to index.html with the path preserved
+      // so the React Router can handle the route.
+      sessionStorage.setItem('redirect', location.pathname + location.search + location.hash);
+      location.replace(location.pathname.split('/').slice(0, 2).join('/') + '/');
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
